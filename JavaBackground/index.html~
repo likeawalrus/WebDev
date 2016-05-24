@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			var counter;
+			window.setInterval, (changeBackground, 4000);
+			function changeBackground() {
+				imgLoc = "";
+				document.body.style.background = "url("+ imgLoc +")";
+			}
+		</script>
+	</head>
+	<body>
+		<div>
+			<h1 id="quote"></h1>
+		</div>
+	</body>
+</html>
